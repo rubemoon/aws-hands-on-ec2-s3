@@ -31,33 +31,29 @@
 
 <div align="center">
 
-<a href="steps/01-aws-console/">
+<a href="steps/console/README.md">
   <img src="https://img.shields.io/badge/01-Console_AWS-374151?style=for-the-badge" alt="Console AWS" />
 </a>
-<a href="steps/02-create-ec2/">
+<a href="steps/launch/README.md">
   <img src="https://img.shields.io/badge/02-Criar_EC2-374151?style=for-the-badge" alt="Criar EC2" />
 </a>
-<a href="steps/03-instance-connect/">
-  <img src="https://img.shields.io/badge/03-Instance_Connect-374151?style=for-the-badge" alt="Instance Connect" />
+<a href="steps/connect/README.md">
+  <img src="https://img.shields.io/badge/03-Conectar_EC2-374151?style=for-the-badge" alt="Conectar à EC2" />
 </a>
 
-<a href="steps/04-pem-to-ppk/">
-  <img src="https://img.shields.io/badge/04-PEM_para_PPK-374151?style=for-the-badge" alt="PEM para PPK" />
+<a href="steps/metadata/README.md">
+  <img src="https://img.shields.io/badge/04-Metadados-374151?style=for-the-badge" alt="Metadados" />
 </a>
-<a href="steps/05-ssh/">
-  <img src="https://img.shields.io/badge/05-SSH-374151?style=for-the-badge" alt="SSH" />
-</a>
-<a href="steps/06-metadata/">
-  <img src="https://img.shields.io/badge/06-Metadados-374151?style=for-the-badge" alt="Metadados" />
-</a>
-<a href="steps/07-terminate/">
-  <img src="https://img.shields.io/badge/07-Encerrar-374151?style=for-the-badge" alt="Encerrar" />
+<a href="steps/terminate/README.md">
+  <img src="https://img.shields.io/badge/05-Encerrar-374151?style=for-the-badge" alt="Encerrar" />
 </a>
 
+</div>
+
+<div align="center">
 <p>
-  <a href="steps/01-aws-console/">
-    <strong>Iniciar laboratório →</strong>
+  <a href="steps/console/README.md">
+    <img src="assets/images/start-lab-button.png" alt="Iniciar laboratório" />
   </a>
 </p>
-
 </div>
