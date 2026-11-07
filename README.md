@@ -10,7 +10,7 @@
 <div align="center">
 
 <img
-  src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=1100&color=A855F7&center=true&vCenter=true&width=850&height=85&lines=Hello%2C+Builders!;Welcome+to+AWS+Meetup+%2302;EC2+and+S3, +Hands-on;Each+mission+has+its+own+branch;Choose+a+branch+to+begin!"
+  src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=1100&color=A855F7&center=true&vCenter=true&width=850&height=85&lines=Hello%2C+Builders!;Welcome+to+AWS+Meetup+%2302;EC2+and+S3,+Hands-on;Each+mission+has+its+own+branch;Choose+a+branch+to+begin!"
   alt="Welcome Builders"
 />
 
