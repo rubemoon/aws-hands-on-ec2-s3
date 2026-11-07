@@ -9,21 +9,56 @@
 
 <div align="center">
 
-<img
-  src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=1100&color=A855F7&center=true&vCenter=true&width=850&height=85&lines=Hello%2C+Builders!;Welcome+to+AWS+Meetup+%2302;EC2+and+S3, +Hands-on;Each+mission+has+its+own+branch;Choose+a+branch+to+begin!"
-  alt="Welcome Builders"
-/>
+<h2>Amazon S3 | Hands-on Lab</h2>
 
 <p>
-  <a href="https://github.com/rubemoon/aws-hands-on-ec2-s3/tree/lab/ec2">
-    <img src="https://img.shields.io/badge/01-EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white" alt="EC2 Lab"/>
-  </a>
-  <a href="https://github.com/rubemoon/aws-hands-on-ec2-s3/tree/lab/s3">
-    <img src="https://img.shields.io/badge/02-S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white" alt="S3 Lab"/>
-  </a>
-  <a href="https://github.com/rubemoon/aws-hands-on-ec2-s3/tree/challenge">
-    <img src="https://img.shields.io/badge/03-Challenge-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="Challenge"/>
-  </a>
+  Aprenda a criar buckets, armazenar objetos e gerenciar arquivos no Amazon S3
 </p>
 
+</div>
+
+## Arquitetura do laboratório
+
+<p align="center">
+  <img
+    src="assets/diagrams/s3-architecture.png"
+    alt="Arquitetura do laboratório Amazon S3"
+    width="100%"
+  />
+</p>
+
+## Etapas
+
+<div align="center">
+
+<a href="steps/console/README.md">
+  <img src="https://img.shields.io/badge/01-Console_AWS-374151?style=for-the-badge" alt="Console AWS" />
+</a>
+<a href="steps/bucket/README.md">
+  <img src="https://img.shields.io/badge/02-Criar_Bucket-374151?style=for-the-badge" alt="Criar Bucket" />
+</a>
+<a href="steps/folder/README.md">
+  <img src="https://img.shields.io/badge/03-Criar_Pasta-374151?style=for-the-badge" alt="Criar Pasta" />
+</a>
+<a href="steps/upload/README.md">
+  <img src="https://img.shields.io/badge/04-Upload-374151?style=for-the-badge" alt="Upload" />
+</a>
+<a href="steps/access/README.md">
+  <img src="https://img.shields.io/badge/05-Acesso_Publico-374151?style=for-the-badge" alt="Acesso Público" />
+</a>
+<a href="steps/metadata/README.md">
+  <img src="https://img.shields.io/badge/06-Metadados-374151?style=for-the-badge" alt="Metadados" />
+</a>
+<a href="steps/delete/README.md">
+  <img src="https://img.shields.io/badge/07-Excluir_Bucket-374151?style=for-the-badge" alt="Excluir Bucket" />
+</a>
+
+</div>
+
+<div align="center">
+<p>
+  <a href="steps/console/README.md">
+    <img src="assets/images/start-lab-button.png" alt="Iniciar laboratório" />
+  </a>
+</p>
 </div>
