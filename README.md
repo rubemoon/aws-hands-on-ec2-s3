@@ -40,3 +40,14 @@
 </table>
 
 <p align="center"><sub>Brindes sujeitos à confirmação da <a href="https://github.com/awsbuildersuffs">AWS Student Builder Group UFFS</a></sub></p>
+
+## Follow us
+
+<p align="center">
+  <a href="https://www.linkedin.com/company/aws-student-builder-group-uffs/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://www.instagram.com/awsbuildersuffs/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&amp;logo=instagram&amp;logoColor=white" alt="Instagram"/></a>
+  <a href="https://github.com/awsbuildersuffs"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub"/></a>
+  <a href="https://www.youtube.com/@AwsStudentBuilderGroupUFFS"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&amp;logo=youtube&amp;logoColor=white" alt="YouTube"/></a>
+  <a href="https://www.threads.com/@awsbuildersuffs"><img src="https://img.shields.io/badge/Threads-000000?style=for-the-badge&amp;logo=threads&amp;logoColor=white" alt="Threads"/></a>
+  <a href="https://www.meetup.com/aws-sbg-at-federal-university-of-fronteira-sul/"><img src="https://img.shields.io/badge/Meetup-EA4B8B?style=for-the-badge&amp;logo=meetup&amp;logoColor=white" alt="Meetup events"/></a>
+</p>
