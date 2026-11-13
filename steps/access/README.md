@@ -20,9 +20,9 @@
 
 Por padrão, os objetos armazenados no Amazon S3 são privados
 
-Nesta etapa, vamos testar o acesso a um arquivo e permitir a leitura pública somente desse objeto
+Nesta etapa, vamos testar o acesso a um arquivo e permitir a leitura pública dos objetos do bucket
 
-> **Atenção:** acesso público permite que qualquer pessoa com o endereço do objeto o visualize. Use somente o bucket e o arquivo de teste deste laboratório
+> **Atenção:** a política desta etapa permite que qualquer pessoa leia todos os objetos do bucket. Use somente um bucket de laboratório, sem dados privados ou importantes, e remova a política ao concluir
 
 ## Instruções
 
@@ -75,42 +75,42 @@ Digite `confirm` e clique em **Confirm**
 
 > Faça essa configuração somente em um bucket de laboratório, com arquivos de teste e autorização da equipe
 
-### 3. Crie uma política para um único objeto
+### 3. Crie uma política de leitura pública para os objetos do bucket
 
 Na aba **Permissions**, localize **Bucket policy** e clique em **Edit**
 
 ![Seção Bucket policy](../../assets/images/access-bucket-policy-section.png)
 
-Copie o **Bucket ARN** exibido nas propriedades do bucket, sem adicionar `/*`
+Copie o **Bucket ARN** exibido nas propriedades do bucket
 
 ![Exemplo de Bucket ARN](../../assets/images/access-bucket-arn.png)
 
-A captura seguinte mostra `/*` no campo **Resource**. Esse curinga corresponde a todos os objetos do bucket; não use esse escopo amplo para este laboratório
+A política abaixo usa `BUCKET_ARN/*` no campo **Resource**. Substitua `BUCKET_ARN` pelo ARN copiado, mantendo `/*` no final. Esse curinga permite leitura de todos os objetos do bucket
 
 ![Campo Resource configurado com curinga para todos os objetos](../../assets/images/access-bucket-wide-resource-line.png)
 
-![Exemplo de escopo amplo que não deve ser usado](../../assets/images/access-bucket-wide-policy-warning.png)
+![Exemplo de política de leitura pública para todos os objetos do bucket](../../assets/images/access-bucket-wide-policy-warning.png)
 
-Adicione a política abaixo. Substitua `NOME-DO-BUCKET` e `NOME-DO-ARQUIVO` pelos valores reais, mantendo o caminho `cloud-folder/` e a extensão correta do arquivo
+Copie e cole esta política. Troque `BUCKET_ARN` pelo ARN real do seu bucket:
 
 ```json
 {
   "Version": "2012-10-17",
   "Statement": [
     {
-      "Sid": "PublicReadSingleTestObject",
+      "Sid": "PublicReadBucketObjects",
       "Effect": "Allow",
       "Principal": "*",
       "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::NOME-DO-BUCKET/cloud-folder/NOME-DO-ARQUIVO"
+      "Resource": "BUCKET_ARN/*"
     }
   ]
 }
 ```
 
-A permissão `s3:GetObject` permite a leitura somente do objeto indicado
+A permissão `s3:GetObject` com `/*` permite a leitura de qualquer objeto do bucket
 
-Confira o nome do bucket e a chave completa do objeto antes de salvar. Não substitua o caminho específico por `*`
+Confira se substituiu `BUCKET_ARN` pelo ARN correto e manteve `/*` ao final. Não use esta política em buckets com conteúdo que não deve ser público
 
 Clique em **Save changes**
 
@@ -149,7 +149,7 @@ Não desative proteções no nível da conta sem autorização da equipe
   alt="S3 public access completed"
 />
 
-Você configurou e testou uma permissão pública restrita ao arquivo de laboratório
+Você configurou e testou a leitura pública dos objetos do bucket de laboratório
 
 </div>
 
