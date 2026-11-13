@@ -17,39 +17,47 @@
 
 ## Visão geral
 
-O AWS Management Console é a interface web utilizada para acessar e gerenciar os serviços da AWS
-
-Nesta etapa, vamos entrar no ambiente do laboratório e selecionar a região correta
+Nesta etapa, vamos acessar a conta AWS e abrir o console para os laboratórios EC2 e S3
 
 ## Instruções
 
-### 1. Acesse o ambiente AWS
+### 1. Entre ou crie uma conta
 
-Abra o link de acesso disponibilizado pela equipe do laboratório
+Abra o link de acesso indicado pela organização
 
-Se estiver utilizando uma conta temporária, siga as orientações de acesso recebidas
+Se você já tem uma conta AWS, escolha **Sign in to an existing account**
 
-### 2. Faça login
+Se a organização orientou você a criar uma conta, entre com seu AWS Builder ID e escolha **Create new account**
 
-Na página de autenticação, informe as credenciais fornecidas para sua sessão e clique em **Sign in**
+![Opções para entrar ou criar uma conta AWS](../../assets/images/aws-account-signup.png)
+
+### 2. Complete a configuração da conta
+
+Selecione seu país, preencha seus próprios dados e conclua as verificações na tela. A captura é apenas um exemplo. Não compartilhe senhas ou códigos de verificação
+
+![Formulário de contato da conta AWS](../../assets/images/aws-account-contact.png)
+
+> A criação da conta pode solicitar informações pessoais e de cobrança. Revise as condições atuais da AWS antes de continuar. Recursos usados na conta podem gerar cobranças
+
+Se a organização fornecer uma conta temporária, use as instruções recebidas em vez de criar uma conta pessoal
+
+### 3. Acesse o AWS Console
+
+Após a configuração, entre no console com o método indicado para sua conta
 
 ![Tela de login AWS](../../assets/images/console-login.png)
 
-### 3. Selecione a região
-
-No canto superior direito do console, abra o seletor de regiões
-
-Para o laboratório de referência, selecione **US West (Oregon) — us-west-2**
+Abra o seletor de regiões no canto superior direito e selecione a região indicada pela organização
 
 ![Seleção da região AWS](../../assets/images/console-region.png)
 
-> Utilize a região informada pela equipe caso seja diferente da referência
+![AWS Management Console](../../assets/images/console-home.png)
+
+O acesso ao console e a seleção da região são iguais para os laboratórios EC2 e S3
 
 ## Verificação
 
-Confirme que o AWS Console está acessível e que a região selecionada corresponde à do laboratório
-
-![AWS Management Console](../../assets/images/console-home.png)
+Confirme que o AWS Console está aberto na região indicada pela organização
 
 <details>
 <summary>Concluiu esta etapa? 🎉</summary>
