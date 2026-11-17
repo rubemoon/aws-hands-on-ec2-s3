@@ -31,7 +31,7 @@
 <div align="center">
 <p>
   <a href="https://github.com/rubemoon/aws-hands-on-ec2-s3/tree/lab/ec2">
-    <img src="assets/images/start-lab-button.png" alt="Iniciar laboratório" />
+    <img src="start-lab-button.png" alt="Iniciar laboratório" />
   </a>
 </p>
 </div>
